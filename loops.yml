@@ -10,4 +10,4 @@
         - sachinraj
         - bhupendra
         - rajat
-        - vasco D gama
+        - vasco_D_gama #if any user has space in user name then user not created by ansible playbook if u want to create user with space then you chng space form  "_" this under score.
