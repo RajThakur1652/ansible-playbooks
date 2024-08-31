@@ -1,0 +1,10 @@
+--- #mt first variable file for testing persose
+- hosts: demo
+  user: ansible
+  become: yes
+  connection: ssh
+  vars:
+    pkgname: httpd    #pkgname is my variable here i can change the pkgname and the where i write pkgname all variables are change by pkgname
+  tasks:
+    - name: install HTTPD server on centos 7
+      action: yum name="{{pkgname}}" state=installed
